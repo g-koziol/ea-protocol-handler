@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.ProtocolHandler.AddIn", "AddIn\EA.ProtocolHandler.AddIn.csproj", "{AAEB1A88-431F-49CD-8B17-3CD3879E235E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A7CE0F90-9CE0-4B00-8EED-8C95B2D2B781} = {A7CE0F90-9CE0-4B00-8EED-8C95B2D2B781}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.ProtocolHandler.Utility", "Utility\EA.ProtocolHandler.Utility.csproj", "{A7CE0F90-9CE0-4B00-8EED-8C95B2D2B781}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAEB1A88-431F-49CD-8B17-3CD3879E235E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEB1A88-431F-49CD-8B17-3CD3879E235E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEB1A88-431F-49CD-8B17-3CD3879E235E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEB1A88-431F-49CD-8B17-3CD3879E235E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CE0F90-9CE0-4B00-8EED-8C95B2D2B781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CE0F90-9CE0-4B00-8EED-8C95B2D2B781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CE0F90-9CE0-4B00-8EED-8C95B2D2B781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CE0F90-9CE0-4B00-8EED-8C95B2D2B781}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
